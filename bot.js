@@ -1,5 +1,7 @@
 var tmi = require("tmi.js")
+// Put your Twitch account name of the account you want it to chat in
 var channelName = "greyshows42"
+// Change if you want
 var prefix = "!"
 
 var config = {
@@ -11,8 +13,10 @@ var config = {
         reconnect: true
     },
     identity: {
-        username: "greyshows42bot",
-        password: "oauth:bh6ndw2of9hxde3bfw10uv8ejtkk4k"
+        // Username of Account you want as bot
+        username: "",
+        //Go to https://twitchapps.com/tmi/ For password and be connected to the account you want the bot to be on
+        password: ""
     },
     channels: [channelName]
 }
