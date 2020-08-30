@@ -8,4 +8,4 @@ then you must open command promt and do
 cd (location of the folder)
 Then you must do
 npm install
-Then  all you have to do is open the run.bat file and the bot should run perfectly!
+Then  all you have to do is open the run.bat file and the bot should run perfectly!!
