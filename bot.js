@@ -39,6 +39,7 @@ client.on("chat", (channel, user, message, self) => {
         let commandFile = require(`./commands/${cmd}.js`)
         commandFile.run(client, message, args, user, channel, self)
     }catch(err) {
+        console.log(err)
         return;
     }
 })
